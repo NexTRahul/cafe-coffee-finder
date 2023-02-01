@@ -126,6 +126,10 @@ const CoffeStore = (initialProps) => {
     <div>
       <Head>
         <title>{name}</title>
+        <meta
+          name="description"
+          content={`Discover ${name} coffee stores`}
+        />
       </Head>
       <div className={styles.container}>
         <div className={styles.col1}>
